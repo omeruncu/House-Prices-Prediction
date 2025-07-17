@@ -1,0 +1,14 @@
+data_paths:
+  train: "data/raw/train.csv"
+  test: "data/raw/test.csv"
+  test_ids : "data/processed/id_values.csv"
+  drop_columns : "data/processed/drop_columns.pkl"
+  num_cols : "data/processed/num_cols.pkl"
+  cat_cols : "data/processed/cat_cols.pkl"
+  num_cols_min_max : "data/processed/num_cols_min_max.pkl"
+  cat_cols_values : "data/processed/cat_cols_values.pkl"
+  combined_processed : "data/processed/combined_processed.csv"
+
+output_paths:
+  submission: "outputs/submission/"
+  figures: "outputs/figures/"
